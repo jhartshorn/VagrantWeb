@@ -49,6 +49,7 @@ sudo a2enmod rewrite
 # restart apache
 service apache2 restart
 
+
 # install git
 sudo apt-get -y install git
 
@@ -67,4 +68,3 @@ sudo npm install -g bower
 # install Composer
 curl -s https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
-
